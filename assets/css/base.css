@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+                                      /* global style */
 * {
   margin: 0;
   padding: 0;
-  color: #f8f9fa;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+}
+.btn{
+  text-transform: capitalize;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --orange-color:#ffc451;
+  --white-color:#fff;
+  --heading-color: #444444;
+  --text-color: #919191;
+  --title-color: #aaaaaa;
+}
+
+a{
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+ul{
+  list-style:none;
 }
