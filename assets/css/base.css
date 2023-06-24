@@ -293,6 +293,107 @@ nav .dropdown:hover {
   font-size: 1.7rem;
 }
 
+/* start about section */
+ 
+.row_about{
+  padding-top: 10rem;
+}
+.img_about img{
+  width: 100%;
+  height: 481px;
+
+}
+.row__1{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+.row__1 h5{font-weight: 700;
+  padding-left: 12px;
+}
+.row__1 p{
+  padding-left: 51px;
+  font-size: small;
+  color: #848484;
+}
+.row__1 i{
+  color: #ffc451;
+  font-size: 2.5em;
+}
+
+/* end about section */
+
+/* start service section */
+.service{
+  padding-top: 100px;
+}
+.container .title_service h6{
+  font-size: .8em;
+  color: #aaaaaa;
+  letter-spacing: 2px;
+  font-weight: 600;
+  position: relative;
+}
+.container>.title_service>h6::after{
+  content: "";
+    position: absolute;
+    height: 1px;
+    width: 8rem;
+    color: #ffde9e;
+    left: 88px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.title_service h2{
+  font-weight: 600;
+  color: #151515;
+  padding-bottom: 40px;
+}
+.cards{
+  justify-content: center;
+    gap: 23px;
+    
+}
+.row .card{
+  transition: .4s ease-in-out;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  height: 20rem;
+  padding: 66px 22px;
+    width: 356px;
+}
+.icon_service i{
+  font-size: 1.5em;
+  background-color: #ffc451;
+  width: 65px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 18px;
+}
+.card h3{
+  padding: 19px;
+    font-weight: 600;
+    font-size: 1.5em;
+    transition: .3s linear;
+}
+.card p{
+  font-size: 13px;
+  font-weight: 300;
+}
+.card:hover{
+  transition: .4s ease-in-out;
+  box-shadow:0 0 30px 0 rgba(0, 0, 0, 10%) ;
+  transform: translateY(-.9rem);
+}
+.card>h3:hover{
+  color: #ffc451;
+  transition: .3s linear;
+}
+
+/* end service section */
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active,
@@ -311,19 +412,14 @@ nav .dropdown:hover {
   line-height: 1px;
   letter-spacing: 2px;
   color: #aaaaaa;
+      font-family: Arial,
+        Helvetica,
+        sans-serif;
+    }
 
 
 
-
-
-
-
-
-
-
-
-
-
+        /* ======= End Portfolio Section ======= */
 
   /*Stert Footer*/
   .contact {
@@ -424,11 +520,7 @@ nav .dropdown:hover {
     color: #151515;
   }
 
-  /* ======= End Portfolio Section ======= */
-  font-family: Arial,
-  Helvetica,
-  sans-serif;
-}
+
 
 /* ======= Start Footer ======= */
 .section-title p {
