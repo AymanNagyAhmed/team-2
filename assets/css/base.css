@@ -133,6 +133,30 @@ nav form .btn:focus {
   line-height: 1px;
   letter-spacing: 2px;
   color: #aaaaaa;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Stert Footer*/
+.contact{
+  width: 85%;
+  margin: auto;
+}
+.section-title h2{
+  font-size: 18px;
+  color: #aaaaaa;
+  font-weight: 450;
+  letter-spacing: 2px;
 }
 .section-title h2::after {
   content: "";
@@ -206,3 +230,145 @@ nav form .btn:focus {
 }
 
 /* ======= End Portfolio Section ======= */
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ======= Start Footer ======= */
+.section-title p{
+  font-size: 35px;
+  font-weight: 600;
+  color: #151515;
+}
+.contact .location i {
+  font-size: 20px;
+  background: #ffc451;
+  color: #151515;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.contact .email i{
+    font-size: 20px;
+    background: #ffc451;
+    color: #151515;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.contact .mobile i {
+  font-size: 20px;
+  background: #ffc451;
+  color: #151515;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.contact .location h3 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+.contact .location p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
+}
+.contact .email p{
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
+}
+.contact .email h3 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+.contact .mobile h3 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+.contact .mobile p{
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
+}
+.contact .location{
+  margin: 40px;
+}
+.contact .email{
+  margin: 40px;
+}
+.contact .mobile{
+  margin: 40px;
+}
+.contact .php-email-form button {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+.links-footer ul{
+  list-style: none;
+}
+.links-footer ul i{
+  padding-right: 2px;
+    color: #ffc451;
+    font-size: 18px;
+    line-height: 1;
+}
+.main-container{
+  width: 85%;
+  margin: auto;
+}
+.footer-sec {
+  background: #151515;
+    border-bottom: 1px solid #222222;
+    padding: 60px 0 30px 0;
+    color: #fff;
+}
+.container-footer{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 35px;
+}
+.credits a{
+  color: #ffc451;
+}
+.footer-sec .social-link a {
+  font-size: 18px;
+  display: inline-block;
+  background: #292929;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+}
+/* ======= End Footer ======= */
