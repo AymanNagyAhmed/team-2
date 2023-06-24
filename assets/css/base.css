@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 
 /* global style */
 * {
@@ -9,10 +9,9 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
 }
-
 .btn {
   text-transform: capitalize;
 }
@@ -23,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 :root {
@@ -43,7 +42,6 @@ ul {
   list-style: none;
 }
 
-
 /* start header */
 .navbar-brand {
   font-size: 2rem;
@@ -52,11 +50,11 @@ ul {
 
 .navbar-brand i {
   color: var(--orange-color);
-  font-size: .3rem;
+  font-size: 0.3rem;
 }
 
 .nav-item a {
-  font-size: .9rem !important;
+  font-size: 0.9rem !important;
   color: var(--white-color) !important;
 }
 
@@ -65,7 +63,7 @@ ul {
 }
 
 nav form .btn {
-  border: .1rem solid var(--orange-color);
+  border: 0.1rem solid var(--orange-color);
   color: var(--white-color);
   outline: 0 !important;
 }
@@ -79,11 +77,6 @@ nav form .btn:focus {
   outline: 0 !important;
   box-shadow: 0 0 0 0.25rem #44444400;
 }
-
-
-
-
-
 
 /* start hero section */
 
@@ -108,12 +101,12 @@ nav form .btn:focus {
 
 .hero__title {
   text-align: center;
-  color: var(--white-color)
+  color: var(--white-color);
 }
 
 .hero__card {
   text-align: center;
-  border: .1rem solid var(--orange-color);
+  border: 0.1rem solid var(--orange-color);
   border-color: var(--orange-color);
 }
 
@@ -121,3 +114,95 @@ nav form .btn:focus {
   color: var(--orange-color);
   font-size: 1.7rem;
 }
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active,
+.btn-light.active,
+.open > .dropdown-toggle.btn-light {
+  color: #151515;
+  background-color: #ffc451;
+}
+
+/* ======= Portfolio Section ======= */
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
+}
+
+.portfolio-info {
+  /* background-color: red; */
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  color: #fff;
+}
+
+.portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-wrap::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 21, 21, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 2;
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio-wrap:hover::before {
+  opacity: 1;
+}
+.portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+.portfolio-wrap img {
+  width: 100%;
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio-info p {
+  font-style: italic !important;
+}
+.section-title p {
+  font-size: 36px;
+  font-weight: 700;
+  color: #151515;
+}
+
+/* ======= End Portfolio Section ======= */
