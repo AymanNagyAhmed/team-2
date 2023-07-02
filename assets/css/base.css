@@ -293,8 +293,52 @@ nav .dropdown:hover {
   font-size: 1.7rem;
 }
 
-/* start about section */
- 
+/* start client section */
+.carousel {
+  padding-top: 30px;
+
+}
+
+.carousel-indicators {
+  bottom: -70px;
+}
+
+.carousel-indicators .clients_button {
+ border-radius: 50%;
+ height: 10px;
+ background-color: #ffc451;
+
+  width: 10px;
+}
+.carousel-control-next,.carousel-control-prev{
+  width: 5%;
+
+}
+
+.carousel-inner .img_carousel {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.img_carousel img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+  height: 44.5px;
+  
+
+}
+
+.carousel-item>.img_carousel>img:hover{
+  transition: 0.3s;
+  opacity: 1 ;
+  filter: grayscale(0);
+  
+}
+/*end client section*/
+
+ /*start features section*/
 .row_about{
   padding-top: 10rem;
 }
@@ -314,7 +358,7 @@ nav .dropdown:hover {
 }
 .row__1 p{
   padding-left: 51px;
-  font-size: small;
+  font-size: .9em;
   color: #848484;
 }
 .row__1 i{
@@ -322,7 +366,7 @@ nav .dropdown:hover {
   font-size: 2.5em;
 }
 
-/* end about section */
+/* end features section */
 
 /* start service section */
 .service{
@@ -334,26 +378,29 @@ nav .dropdown:hover {
   letter-spacing: 2px;
   font-weight: 600;
   position: relative;
+  
 }
 .container>.title_service>h6::after{
   content: "";
-    position: absolute;
+  position: absolute;
     height: 1px;
-    width: 8rem;
-    color: #ffde9e;
+    width: 7rem;
+    background-color: #ffde9e;
     left: 88px;
     top: 0;
     bottom: 0;
     margin: auto;
 }
-.title_service h2{
-  font-weight: 600;
+.title_service p{
+  font-weight: 700;
   color: #151515;
-  padding-bottom: 40px;
+  font-size: 2.2em;
+}
+.title_service{
+  padding-bottom: 6px;
 }
 .cards{
-  justify-content: center;
-    gap: 23px;
+  padding-bottom: 68px;
     
 }
 .row .card{
@@ -361,9 +408,8 @@ nav .dropdown:hover {
   text-align: center;
   border: 1px solid #ebebeb;
   border-radius: 0;
-  height: 20rem;
   padding: 66px 22px;
-    width: 356px;
+  max-height:20rem;
 }
 .icon_service i{
   font-size: 1.5em;
@@ -374,10 +420,11 @@ nav .dropdown:hover {
     padding: 18px;
 }
 .card h3{
-  padding: 19px;
+  padding: 19px 0px;
     font-weight: 600;
     font-size: 1.5em;
     transition: .3s linear;
+    color: #000;
 }
 .card p{
   font-size: 13px;
@@ -388,10 +435,11 @@ nav .dropdown:hover {
   box-shadow:0 0 30px 0 rgba(0, 0, 0, 10%) ;
   transform: translateY(-.9rem);
 }
-.card>h3:hover{
+.card>a>h3:hover{
   color: #ffc451;
   transition: .3s linear;
 }
+
 
 /* end service section */
 .btn-light:hover,
