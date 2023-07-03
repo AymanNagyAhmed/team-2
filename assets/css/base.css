@@ -759,7 +759,7 @@ nav .dropdown:hover {
 
 /* ======= End Portfolio Section ======= */
 
-/*Stert Footer*/
+/*Start Footer*/
 .contact {
   width: 85%;
   margin: auto;
@@ -1070,7 +1070,7 @@ nav .dropdown:hover {
   border: 0;
   top: 0;
   bottom: 0;
-  right: -2px;
+  right: -2px;}
 
 
   /* ======= End Footer ======= */
@@ -1125,3 +1125,288 @@ nav .dropdown:hover {
   }
 
   /* End about section */
+
+/* ======= global style ======= */
+
+.btn {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --orange-color: #ffc451;
+    --white-color: #fff;
+    --heading-color: #444444;
+    --text-color: #919191;
+    --title-color: #aaaaaa;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+    transition: all ease-in .2s;
+    -webkit-transition: all ease-in .2s;
+    -moz-transition: all ease-in .2s;
+    -ms-transition: all ease-in .2s;
+    -o-transition: all ease-in .2s;
+}
+
+a:hover {
+    color: var(--orange-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.counts {
+    width: 100%;
+}
+
+.counts .counter__container {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.counts .counter__container .row .counter__image {
+    width: 475px;
+    min-height: 400px;
+    height: 490px;
+    max-width: 100%;
+    background-image: url(https://bootstrapmade.com/demo/templates/Gp/assets/img/counts-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.counts .counter__container .couter__discription {
+    width: 665px;
+
+}
+
+.counts .counter__container .couter__discription .content {}
+
+.counts .counter__container .couter__discription .content h3 {
+    margin-bottom: 8px;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+}
+
+.counts .counter__container .couter__discription .content .row .count__box i {
+    color: #ffc451;
+    font-size: 36px;
+    float: left;
+}
+
+.counts .counter__container .couter__discription .content .row .count__box span {
+    font-size: 36px;
+    line-height: 30px;
+    display: block;
+    font-weight: 700;
+    color: #151515;
+    margin-left: 50px;
+}
+
+.counts .counter__container .couter__discription .content .row .count__box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+.counts .counter__container .couter__discription .content .row .count__box {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.employees__container {
+    width: 100%;
+    /* height: 500px; */
+    background-image: url(https://bootstrapmade.com/demo/templates/Gp/assets/img/testimonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.employees__container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-team_1 {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    margin: 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.carousel_team img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: 1rem solid rgba(255, 255, 255, 0.15);
+    margin: auto;
+}
+
+.carousel-item h3 {
+    font-size: 20px;
+    font-family: "Raleway, sans-serif";
+    font-weight: 700;
+}
+
+.carousel-item h4 {
+    font-size: 14px;
+    font-family: "Raleway, sans-serif";
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.carousel-item p {
+    font-size: 16px;
+    font-family: " Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.carousel-item {
+    text-align: center;
+    color: #fff;
+}
+
+.our__team {
+    width: 100%;
+    height: 400px;
+    /* background-color: wheat; */
+}
+
+.our__team .section__title h2 {
+
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.our__team .our_team_container {
+    width: 90%;
+    margin: auto;
+}
+
+.our__team .section__title span {
+    color: rgb(255, 222, 158);
+}
+
+.our__team .section__title p {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+    margin-bottom: 3rem;
+}
+
+.row .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.row .member-info h4 {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #151515;
+    font-weight: 900;
+    font-style: bold;
+
+}
+
+.row .member .member-info {
+    padding: 25px 15px;
+}
+
+.row .member .member-info span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+/* .member .social a{
+    opacity: 0;
+  
+  } */
+.member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+.member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+.member .member-img {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.member .social a {
+    margin: 0 3px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: ease-in-out 0.3s;
+    color: #484848;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member .social a:hover {
+    color: #151515;
+    background: #ffc451;
+}
+
+.member .social i {
+    font-size: 18px;
+    line-height: 0;
+}
+/* end global */
